@@ -1,0 +1,11 @@
+ubuntucinnamon-layout (0.1) focal; urgency=medium
+
+  * Copied code from Rik Shaw <rikshaw76@gmail.com>
+
+  * Changed source and package name to ubuntucinnamon-layout
+  * Realized package can be ran on cinnamon 4.0.9+-removed version requirement for cinnamon
+  * Changed cinnamon/ubuntu icons to Ubuntu Cinnamon icons
+  * Renamed application selection to "Panel Layout"
+  * Used "Panel Layout" icon from Cinnamon
+
+ -- Joshua Peisach <ubuntucinnamonremix7@gmail.com>  Sun, 29 Dec 2019 10:18:10 -0500

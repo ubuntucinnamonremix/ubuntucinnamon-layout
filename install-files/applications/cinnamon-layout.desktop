@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Panel Layout
+Comment=Change interface betweeen different layouts
+Exec=ubuntucinnamon-layout
+Terminal=false
+Type=Application
+Icon=cs-panel
+Categories=Application;System;
+OnlyShowIn=X-Cinnamon;

@@ -1,0 +1,19 @@
+Source: ubuntucinnamon-layout
+Section: utils
+Priority: optional
+Maintainer: Joshua Peisach <ubuntucinnamonremix7@gmail.com>
+Build-Depends: debhelper (>= 12)
+Standards-Version: 4.4.0
+Rules-Requires-Root: no
+Homepage: https://github.com/ubuntucinnamonremix/ubuntucinnamon-layout
+
+Package: ubuntucinnamon-layout
+Architecture: all
+Depends: cinnamon, cinnamon-common, cinnamon-control-center, cinnamon-desktop-data, cinnamon-l10n, cinnamon-screensaver, cinnamon-session, cinnamon-settings-daemon, cjs, jq, muffin, nemo, plank, python:any, python3, ${shlibs:Depends}, ${misc:Depends}
+Breaks: cinnamon-layout-4-0,
+Replaces: cinnamon-layout-4-0
+Description: Ubuntu Cinnamon Panel Layout Switcher
+ Layout switcher for Ubuntu Cinnamon Desktop.
+ The code of this package is from Wasta Linux's Rik Shaw
+ <rikshaw76@gmail.com>. All references to Wasta in terms
+ of application (gschemas) will be kept.
